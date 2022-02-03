@@ -15,7 +15,7 @@ export default function ItemCount({stock}){
         //Montaje
         <div>
             
-            <h1>Titulo item</h1>
+            <h1>{itemCount}</h1>
             <button onClick={updateItem}>+</button>
             <button onClick={removeItem}>-</button>
             <br/>
